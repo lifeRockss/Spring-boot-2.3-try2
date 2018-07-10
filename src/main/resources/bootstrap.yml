@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: HelloWorldClient
+  cloud:
+    consul:
+      host: consul
+      port: 8500
+      config:
+        failFast: false
+        prefix: config
+        defaultContext: dsapi/dev
